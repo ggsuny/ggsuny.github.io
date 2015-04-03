@@ -74,16 +74,16 @@ window.__imported__["Untitled/layers.json.js"] = [
               "path" : "images\/Monitored-AAA6D97D-E2D9-4378-91FA-CD1D9B67000A.png",
               "frame" : {
                 "y" : 696,
-                "x" : 262,
-                "width" : 115,
+                "x" : 254,
+                "width" : 131,
                 "height" : 17
               }
             },
             "imageType" : "png",
             "layerFrame" : {
               "y" : 696,
-              "x" : 262,
-              "width" : 115,
+              "x" : 254,
+              "width" : 131,
               "height" : 17
             },
             "name" : "Monitored"
@@ -103,16 +103,16 @@ window.__imported__["Untitled/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Line_11__Line_12-F7757485-70CB-4ACB-A81F-CA262EB2439F.png",
                   "frame" : {
-                    "y" : 658,
-                    "x" : 270,
+                    "y" : 660,
+                    "x" : 273,
                     "width" : 11,
                     "height" : 8
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 658,
-                  "x" : 270,
+                  "y" : 660,
+                  "x" : 273,
                   "width" : 11,
                   "height" : 8
                 },
@@ -122,16 +122,16 @@ window.__imported__["Untitled/layers.json.js"] = [
             "image" : {
               "path" : "images\/Checkedbutton-90589F75-2693-4506-962D-C828083305E0.png",
               "frame" : {
-                "y" : 652,
-                "x" : 265,
+                "y" : 654,
+                "x" : 268,
                 "width" : 20,
                 "height" : 20
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 652,
-              "x" : 265,
+              "y" : 654,
+              "x" : 268,
               "width" : 20,
               "height" : 20
             },
@@ -166,18 +166,18 @@ window.__imported__["Untitled/layers.json.js"] = [
         "image" : {
           "path" : "images\/Content2-B7C7352A-7079-4F49-8564-3A3298A37E4E.png",
           "frame" : {
-            "y" : 652,
+            "y" : 654,
             "x" : 209,
             "width" : 220,
-            "height" : 61
+            "height" : 59
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 652,
+          "y" : 654,
           "x" : 209,
           "width" : 220,
-          "height" : 61
+          "height" : 59
         },
         "name" : "Content2"
       },
@@ -277,7 +277,7 @@ window.__imported__["Untitled/layers.json.js"] = [
   }
 ]
 window.Framer.Defaults.DeviceView = {
-  "deviceScale" : 1,
+  "deviceScale" : 0.5,
   "orientation" : 0,
   "contentScale" : 1,
   "deviceType" : "iphone-5s-silver"

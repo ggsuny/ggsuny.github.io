@@ -15,7 +15,7 @@ LoginButton.on Events.Click,->
 	Checkedbutton.scale = 0
 	Monitored.opacity = 1
 	Checkedbutton.animate
-		properties:{scale:1.2}
+		properties:{scale:1}
 		curve:"spring(500,20,0)"
 		delay:0.2
 	Safely.animate
@@ -24,7 +24,7 @@ LoginButton.on Events.Click,->
 		delay:0.2
 
 			
-	Utils.delay 0.8,->
+	Utils.delay 1,->
 		Safely.animate
 			properties:{opacity:0}
 			time:0.1
@@ -35,5 +35,5 @@ LoginButton.on Events.Click,->
 
 		Text.animate
 			properties:{opacity:1}
-			time:0.2
+			time:0.4
 		
