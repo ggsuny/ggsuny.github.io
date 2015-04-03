@@ -49,7 +49,7 @@ window.__imported__["Untitled/layers.json.js"] = [
               "path" : "images\/Text-00821A2B-01D6-40DF-A3AA-CB4914137860.png",
               "frame" : {
                 "y" : 654,
-                "x" : 210,
+                "x" : 209,
                 "width" : 220,
                 "height" : 20
               }
@@ -57,7 +57,7 @@ window.__imported__["Untitled/layers.json.js"] = [
             "imageType" : "png",
             "layerFrame" : {
               "y" : 654,
-              "x" : 210,
+              "x" : 209,
               "width" : 220,
               "height" : 20
             },
@@ -103,17 +103,17 @@ window.__imported__["Untitled/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Line_11__Line_12-F7757485-70CB-4ACB-A81F-CA262EB2439F.png",
                   "frame" : {
-                    "y" : 700,
-                    "x" : 285,
-                    "width" : 10,
+                    "y" : 658,
+                    "x" : 270,
+                    "width" : 11,
                     "height" : 8
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 700,
-                  "x" : 285,
-                  "width" : 10,
+                  "y" : 658,
+                  "x" : 270,
+                  "width" : 11,
                   "height" : 8
                 },
                 "name" : "Line_11__Line_12"
@@ -122,18 +122,18 @@ window.__imported__["Untitled/layers.json.js"] = [
             "image" : {
               "path" : "images\/Checkedbutton-90589F75-2693-4506-962D-C828083305E0.png",
               "frame" : {
-                "y" : 694,
-                "x" : 280,
-                "width" : 19,
-                "height" : 19
+                "y" : 652,
+                "x" : 265,
+                "width" : 20,
+                "height" : 20
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 694,
-              "x" : 280,
-              "width" : 19,
-              "height" : 19
+              "y" : 652,
+              "x" : 265,
+              "width" : 20,
+              "height" : 20
             },
             "name" : "Checkedbutton"
           },
@@ -147,18 +147,18 @@ window.__imported__["Untitled/layers.json.js"] = [
             "image" : {
               "path" : "images\/Safely-8A7298DF-5C18-432D-A131-DCBA1EAE9592.png",
               "frame" : {
-                "y" : 696,
-                "x" : 304,
-                "width" : 64,
-                "height" : 16
+                "y" : 654,
+                "x" : 294,
+                "width" : 80,
+                "height" : 19
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 696,
-              "x" : 304,
-              "width" : 64,
-              "height" : 16
+              "y" : 654,
+              "x" : 294,
+              "width" : 80,
+              "height" : 19
             },
             "name" : "Safely"
           }
@@ -166,18 +166,18 @@ window.__imported__["Untitled/layers.json.js"] = [
         "image" : {
           "path" : "images\/Content2-B7C7352A-7079-4F49-8564-3A3298A37E4E.png",
           "frame" : {
-            "y" : 654,
-            "x" : 210,
+            "y" : 652,
+            "x" : 209,
             "width" : 220,
-            "height" : 59
+            "height" : 61
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 654,
-          "x" : 210,
+          "y" : 652,
+          "x" : 209,
           "width" : 220,
-          "height" : 59
+          "height" : 61
         },
         "name" : "Content2"
       },
@@ -285,7 +285,7 @@ window.Framer.Defaults.DeviceView = {
 
 window.FramerStudioInfo = {
   "deviceImagesUrl" : "file:\/\/\/Applications\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
-  "documentTitle" : "Untitled.framer"
+  "documentTitle" : "管家融合.framer"
 };
 
 Framer.Device = new Framer.DeviceView();
