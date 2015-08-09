@@ -47,9 +47,6 @@ stepsInterval = 20
 steps = 0
 increaseOfStep = totalAmount/(duration*1000/stepsInterval)
 
-Handle.on Events.click,->
-	print xxx
-
 Handle.on Events.Click,->
 	Utils.delay 0.2,->
 		Handle.animate
