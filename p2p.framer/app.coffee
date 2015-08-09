@@ -6,13 +6,27 @@ for layerGroup of PSD
 for layerGroup of PSD
 	PSD[layerGroup ].originalFrame = window[layerGroup ].frame
 
+Loading.on Events.Click,->
+	Utils.delay 4,->
+		Loading.visible = false
+		Amount.opacity = 1 
+		Interest.opacity = 1
+		Utils.delay 0.3,->
+			startAnimation()
+	rotatioinAngle = 0
+	Utils.interval 0.08,->
+		Waiting.rotationZ = rotatioinAngle*36
+		rotatioinAngle++
+		if rotatioinAngle > 9 
+			rotatioinAngle = 0
+	
 Amount = new Layer
 	x:186
 	y:646
 	height:117
 	width:278
 	backgroundColor:"transparent"	
-
+	opacity:0
 BuyAmount = 0
 Amount.html = "#{BuyAmount}"
 Amount.style ={
@@ -29,6 +43,8 @@ Interest = new Layer
 	height:40
 	width:123
 	backgroundColor:"transparent"
+	opacity:0
+	
 InterestAmount = 0
 Interest.html = "#{BuyAmount}"
 Interest.style ={
@@ -47,7 +63,7 @@ stepsInterval = 20
 steps = 0
 increaseOfStep = totalAmount/(duration*1000/stepsInterval)
 
-Handle.on Events.Click,->
+startAnimation=->
 	Utils.delay 0.2,->
 		Handle.animate
 			properties:
