@@ -100,7 +100,6 @@ BackClickArea.on Events.Click,->
 	ListBkgdClip.states.switch("NoShow")
 	CMB.states.switch("NoShow")
 	bkgdOfPsd.opacity = 1
-print Tick.y
 
 CMB.on Events.Click,->
 	CITIC.opacity = 0
