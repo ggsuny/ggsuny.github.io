@@ -60,7 +60,7 @@ window.__imported__["Materials/layers.json.js"] = [
           }
         ],
         "image" : {
-          "path" : "images\/Layer-PureNumberKeyPad-A47A7F9F-012D-4ACA-9C44-04BAA76CB663.png",
+          "path" : "images\/Layer-KeyPad-A47A7F9F-012D-4ACA-9C44-04BAA76CB663.png",
           "frame" : {
             "y" : 703,
             "x" : 0,
@@ -75,7 +75,7 @@ window.__imported__["Materials/layers.json.js"] = [
           "width" : 640,
           "height" : 433
         },
-        "name" : "PureNumberKeyPad"
+        "name" : "KeyPad"
       },
       {
         "maskFrame" : null,
@@ -398,13 +398,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "E8C19379-8A6A-4432-845B-611346F0D02B",
+            "id" : "0D474807-25E3-43B2-86AA-96FFD1410EC5",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-E8C19379-8A6A-4432-845B-611346F0D02B.png",
+              "path" : "images\/Layer-Delete-0D474807-25E3-43B2-86AA-96FFD1410EC5.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,
@@ -811,13 +811,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "6B332730-869F-4AD3-B6D3-895B1878697A",
+            "id" : "5CA60448-79B0-4084-98B7-AF43522C5595",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-6B332730-869F-4AD3-B6D3-895B1878697A.png",
+              "path" : "images\/Layer-Delete-5CA60448-79B0-4084-98B7-AF43522C5595.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,
@@ -1157,13 +1157,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "4C8DDF9D-F8EE-4909-81A9-61EDE63DB6C9",
+            "id" : "B81DFD86-63AD-4EDD-9EBA-7DD5064C4B4B",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-4C8DDF9D-F8EE-4909-81A9-61EDE63DB6C9.png",
+              "path" : "images\/Layer-Delete-B81DFD86-63AD-4EDD-9EBA-7DD5064C4B4B.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,
@@ -1353,13 +1353,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "D99384FE-328D-4972-8C21-27482E85AFC6",
+            "id" : "82DD2216-1202-4C51-9D5B-C43B1C88E00B",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-D99384FE-328D-4972-8C21-27482E85AFC6.png",
+              "path" : "images\/Layer-Delete-82DD2216-1202-4C51-9D5B-C43B1C88E00B.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,
@@ -1549,13 +1549,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "4EE32F2B-CCEA-4BE0-A91A-9C5E75425243",
+            "id" : "72D993DE-005C-48CA-A29A-E8669523D32F",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-4EE32F2B-CCEA-4BE0-A91A-9C5E75425243.png",
+              "path" : "images\/Layer-Delete-72D993DE-005C-48CA-A29A-E8669523D32F.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,
@@ -1820,13 +1820,13 @@ window.__imported__["Materials/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "F596A1F5-843A-410A-8EA8-4F4D2244CB6A",
+            "id" : "18DD5216-483F-4EBD-9E8A-5AF9B5FDAEF6",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-Delete-F596A1F5-843A-410A-8EA8-4F4D2244CB6A.png",
+              "path" : "images\/Layer-Delete-18DD5216-483F-4EBD-9E8A-5AF9B5FDAEF6.png",
               "frame" : {
                 "y" : 1069,
                 "x" : 513,

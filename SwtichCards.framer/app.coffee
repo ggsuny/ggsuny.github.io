@@ -35,6 +35,12 @@ ChooseBankcardsList.states.add
 		x:0
 	NoShow:
 		x:540
+KeyPad.states.add
+	Show:
+		y:704
+	NoShow:
+		y:1636
+
 CMB.states.add
 	Show:
 		x:61
@@ -67,7 +73,9 @@ CMB.states.animationOptions =
 ListBkgdClip.states.animationOptions = 
 	time:0.2
 	curve:"easy"
-
+KeyPad.states.animationOptions = 
+	time:0.2
+	curve:"easy"
 Tick.states.add
 	Defaut:
 		y:85
@@ -93,6 +101,7 @@ SwitchCardsHotArea.on Events.Click,->
 	CMB.states.switch("Show")
 	ListBkgdClip.states.switch("Show")
 	bkgdOfPsd.opacity = 0
+	KeyPad.states.switch("NoShow")
 	
 BackClickArea.on Events.Click,->
 	ContentOfPsd.states.switch("Show")
@@ -100,6 +109,8 @@ BackClickArea.on Events.Click,->
 	ListBkgdClip.states.switch("NoShow")
 	CMB.states.switch("NoShow")
 	bkgdOfPsd.opacity = 1
+	Utils.delay 0.2,->
+		KeyPad.states.switch("Show")
 
 CMB.on Events.Click,->
 	CITIC.opacity = 0
@@ -111,3 +122,6 @@ CMB.on Events.Click,->
 		ListBkgdClip.states.switch("NoShow")
 		CMB.states.switch("Selected")
 		bkgdOfPsd.opacity = 1
+		Utils.delay 0.2,->
+			KeyPad.states.switch("Show")
+
