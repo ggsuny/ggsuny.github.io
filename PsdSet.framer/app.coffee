@@ -64,7 +64,6 @@ KeypadClick.on Events.Click,->
 		Utils.delay 0.7,->
 			switch InputCount
 				when 1,3 # First input complete.
-					print "111"
 					psd.animate # Psd and dosts moves out of screen
 						properties:
 							x: -800
@@ -93,17 +92,25 @@ KeypadClick.on Events.Click,->
 							time:0.2
 							curve:"easy"
 				when 2  ## Code does not match
-					print "222"
-					
 					GreyDots.opacity = 0
-					RedDots.opacity = 1
+					#RedDots.opacity = 1
 					InputAgain.opacity = 0
 					WrongPassword.opacity = 1
-					Utils.delay 1,->
-						RedDots.opacity = 0
+					orgpsd = psd.x
+					orgGreyDotes = GreyDots.x
+					psd.x -=100
+					GreyDots.x-=100
+					psd.animate
+						properties:{x:orgpsd}
+						curve:"spring(500,15,20)"
+					GreyDots.animate
+						properties:{x:orgGreyDotes}
+						curve:"spring(500,15,20)"
+					
+# 					Utils.delay 1,->
+# 						RedDots.opacity = 0
 					
 				when 4
-					print "444"
 					SetSuccess.opacity = 1
 					InputAgain.opacity = 0
 					Utils.delay 1,->
